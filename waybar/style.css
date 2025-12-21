@@ -1,0 +1,82 @@
+* {
+    font-size:12px;
+    font-family: "Saira";
+    font-weight: 700;
+}
+window#waybar{
+    all:unset;
+}
+.modules-center {
+    padding:10px;
+    margin: 2px 0 2.5px 0;
+    border-radius:10px;
+    background: rgba(0, 0, 0, .7);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.75);
+}
+.modules-right {
+    padding:10px;
+    margin: 2px 7.5px 2.5px 0;
+    border-radius:10px;
+    background: rgba(0, 0, 0, .7);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.75);
+}
+#custom-notification {
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color:rgb(255, 255, 255);
+}
+#clock{
+    padding: 0px 5px;
+    color:rgb(255, 255, 255);
+    transition: all .3s ease;
+}
+
+#workspaces {
+    padding: 0px 5px;
+}
+#workspaces button {
+    all:unset;
+    margin: 0px 3px;    
+    padding: 0px 2px;
+    color: transparent;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 75px;
+    transition: all .5s ease-in-out;
+    min-width: 50px;
+}
+#workspaces button:hover {
+    color:transparent;
+    background: rgb(255, 255, 255);
+}
+#workspaces button.active {
+    padding: 0px 2px;
+    border-radius:75px;
+    color: transparent;
+    background: rgb(255, 255, 255);
+    min-width: 100px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+#workspaces button.active:hover{
+    color: transparent;
+    background: rgba(255, 255, 255, 0.4);
+}
+#workspaces button.empty {
+    color: rgba(255, 255, 255, 0.4);
+    background: transparent;
+    min-width: 30px;
+}
+#workspaces button.empty:hover {
+    color: rgb(255, 255, 255);
+    background: transparent;
+}
+#workspaces button.empty.active {
+    border-radius:75px;
+    color: transparent;
+    background: rgb(255, 255, 255);
+    min-width: 100px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+#workspaces button.empty.active:hover{
+    color: transparent;
+    background: rgba(255, 255, 255, 0.4);
+}
