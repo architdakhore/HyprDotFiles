@@ -1,6 +1,6 @@
 * {
     font-size:10px;
-    font-family: "Saira";
+    font-family: "Fira Sans";
     font-weight: 700;
 }
 window#waybar{
@@ -10,15 +10,13 @@ window#waybar{
     padding: 13px;
     margin: 1px 0 2.5px 0;
     border-radius:10px;
-    background: rgba(0, 0, 0, .5);
-    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.75);
+    background: rgba(0, 0, 0, .75);
 }
 .modules-right {
     padding:0px 15px;
     margin: 1px 7.5px 2.5px 0;
     border-radius:10px;
-    background: rgba(0, 0, 0, .5);
-    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.75);
+    background: rgba(0, 0, 0, .75);
 }
 #custom-notification {
     font-size:12px;
