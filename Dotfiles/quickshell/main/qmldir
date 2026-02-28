@@ -1,0 +1,10 @@
+module Main
+Bar 1.0 Bar.qml
+ControlCenter 1.0 ControlCenter.qml
+Launcher 1.0 Launcher.qml
+WallpaperChanger 1.0 WallpaperChanger.qml
+GlobalStates 1.0 GlobalStates.qml
+WidgetPanel 1.0 WidgetPanel.qml
+NotificationToast 1.0 NotificationToast.qml
+NotificationToastWindow 1.0 NotificationToastWindow.qml
+MediaSection 1.0 MediaSection.qml
